@@ -9,7 +9,7 @@ import {
 } from "./api/strapiApi";
 // import { AboutProps } from '@/components/Landing/About'
 // import { BlogProps } from '@/components/Landing/BlogLanding'
-import { DomainsProps } from '@/components/Landing/Domains'
+import { Domains } from '@/components/Landing/Domains'
 import { Main } from "@/components/Landing/Main";
 // import { PortfolioProps } from '@/components/Landing/Portfolio'
 import { Services } from "@/components/Landing/Services";
@@ -17,7 +17,7 @@ import { Services } from "@/components/Landing/Services";
 import { MetaTags, Rating } from '@/components/Seo'
 import { FollowUs } from "@/components/SocialNetwork";
 import { PositionType } from "@/components/SocialNetwork/FollowUs";
-import { TechnologiesProps } from '@/components/Technologies'
+import { Technologies } from '@/components/Technologies'
 // import { FaqProps } from '@/components/common/Faq'
 // import { FooterProps } from '@/components/common/Footer'
 import { Header } from "@/components/common/Header/Header";
@@ -39,7 +39,7 @@ import {
 import { Section } from "@/models/Section";
 import { useTranslation } from "next-i18next";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
-import dynamic from 'next/dynamic'
+// import dynamic from 'next/dynamic'
 import Head from "next/head";
 import { useCallback, useEffect, useRef, useState } from "react";
 import { getImageUrl } from '@/utils/images'
@@ -49,10 +49,10 @@ import { toPage } from "@/utils/routes";
 // const BlogLanding = dynamic<BlogProps>(() => import('@/components/Landing/BlogLanding').then((res) => res.BlogLanding))
 // const Faq = dynamic<FaqProps>(() => import('@/components/common/Faq').then((res) => res.Faq))
 // const ContactSection = dynamic(() => import('@/components/Landing/ContactSection').then((res) => res.ContactSection))
-const Domains = dynamic<DomainsProps>(() => import('@/components/Landing/Domains').then((res) => res.Domains))
+// const Domains = dynamic<DomainsProps>(() => import('@/components/Landing/Domains').then((res) => res.Domains))
 // const Footer = dynamic<FooterProps>(() => import('@/components/common/Footer').then((res) => res.Footer))
 // const Portfolio = dynamic<PortfolioProps>(() => import('@/components/Landing/Portfolio').then((res) => res.Portfolio))
-const Technologies = dynamic<TechnologiesProps>(() => import('@/components/Technologies').then((res) => res.Technologies))
+// const Technologies = dynamic<TechnologiesProps>(() => import('@/components/Technologies').then((res) => res.Technologies))
 // const Workflow = dynamic<WorkflowProps>(() => import('@/components/Landing/Workflow').then((res) => res.Workflow))
 
 type StaticProps = {
