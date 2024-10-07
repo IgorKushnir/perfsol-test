@@ -14,7 +14,7 @@ import { Main } from "@/components/Landing/Main";
 // import { PortfolioProps } from '@/components/Landing/Portfolio'
 import { Services } from "@/components/Landing/Services";
 // import { WorkflowProps } from '@/components/Landing/Workflow'
-// import { MetaTags, Rating } from '@/components/Seo'
+import { MetaTags, Rating } from '@/components/Seo'
 import { FollowUs } from "@/components/SocialNetwork";
 import { PositionType } from "@/components/SocialNetwork/FollowUs";
 // import { TechnologiesProps } from '@/components/Technologies'
@@ -37,12 +37,12 @@ import {
   WorkflowSection,
 } from "@/models";
 import { Section } from "@/models/Section";
-// import { useTranslation } from "next-i18next";
+import { useTranslation } from "next-i18next";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 // import dynamic from 'next/dynamic'
 import Head from "next/head";
 import { useCallback, useEffect, useRef, useState } from "react";
-// import { getImageUrl } from '@/utils/images'
+import { getImageUrl } from '@/utils/images'
 import { toPage } from "@/utils/routes";
 
 // const About = dynamic<AboutProps>(() => import('@/components/Landing/About').then((res) => res.About))
@@ -112,15 +112,16 @@ type Props = {
 export default function Home({
   mainPage,
   menu,
+  locale
 }: // blogPosts, paginationLinks,
-// footerMenu, locale
+// footerMenu, 
 Props) {
   const {
-    services,
-    // domains, about, faq, seo, technologies, workflow, portfolio
+    services, seo,
+    // domains, about, faq,  technologies, workflow, portfolio
   } = mainPage;
 
-  // const { t } = useTranslation("common");
+  const { t } = useTranslation("common");
 
   const [floatingElementsPosition, setFloatingElementsPosition] =
     useState<PositionType>("fixed");
@@ -180,7 +181,7 @@ Props) {
           href="/img/svg/linkedin-icon-dark.svg"
         />
       </Head>
-      {/* <MetaTags
+      <MetaTags
               title={seo.title}
               description={seo.description}
               images={[getImageUrl(seo.image)]}
@@ -189,8 +190,8 @@ Props) {
                   de: toPage(``, { withBaseUrl: true, locale: 'de' }),
               }}
               canonical={toPage(``, { withBaseUrl: true, locale })}
-          /> */}
-      {/* <Rating title={t('home')} /> */}
+          />
+      <Rating title={t('home')} />
       <Wrap>
         <FollowUs position={floatingElementsPosition} />
         {/* <PaginationWithDots

@@ -1,6 +1,6 @@
 /* eslint-disable  @typescript-eslint/no-explicit-any */
 // import { roboto } from "@/components/Fonts";
-// import { DefaultSeo } from "@/components/Seo";
+import { DefaultSeo } from "@/components/Seo";
 import { ApplicationContext } from "@/context";
 import { globalStyles } from "@/styles/styles";
 import { Global } from "@emotion/react";
@@ -20,7 +20,7 @@ function MyApp({ Component, pageProps }: { Component: any; pageProps: any }) {
           href="/img/svg/logo.svg"
         />
       </Head>
-      {/* <DefaultSeo /> */}
+      <DefaultSeo />
       <Global styles={globalStyles} />
       <div >
         <Component {...pageProps} />
