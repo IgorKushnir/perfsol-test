@@ -3,7 +3,7 @@ import { RelatedBlogPost } from "@/models";
 import { useTranslation } from "next-i18next";
 import Image from "next/image";
 
-import { LatestPosts } from "@/components/LatestPosts";
+// import { LatestPosts } from "@/components/LatestPosts";
 import {
   ArrowBtn,
   Container,
@@ -18,7 +18,7 @@ import { toBlog } from "@/utils/routes";
 
 export type Props = { blogPosts: RelatedBlogPost[] };
 
-export function BlogLanding({ blogPosts }: Props) {
+export function BlogLanding({}: Props) {
   const { t } = useTranslation();
   return (
     <Wrap data-target="section-item" id="blog" backgroundColor={primaryYellow}>
@@ -31,6 +31,7 @@ export function BlogLanding({ blogPosts }: Props) {
                 width={340}
                 height={260}
                 alt="Perfsol blog"
+                loading="lazy"
               />
             </ImageWrap>
             <InfoWrapper>
@@ -47,7 +48,7 @@ export function BlogLanding({ blogPosts }: Props) {
           </Header>
           <ListWrapper>
             <LatestPostsWrapper>
-              <LatestPosts items={blogPosts} />
+              {/* <LatestPosts items={blogPosts} /> */}
             </LatestPostsWrapper>
             <BottomButtonWrap>
               <ArrowBtn href={toBlog()}>{t("cta.seeAllArticles")}</ArrowBtn>
