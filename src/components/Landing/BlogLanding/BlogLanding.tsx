@@ -68,8 +68,8 @@ const Subtitle = styled(Typography)`
 
 const Wrap = styled(ScreenSection)`
   background-repeat: no-repeat, no-repeat;
-  background-image: url("/img/svg/vacancies-lines.svg"),
-    url("/img/svg/header-cross.svg");
+  /* background-image: url("/img/svg/vacancies-lines.svg"),
+    url("/img/svg/header-cross.svg"); */
   background-position: -25px -150px, 99px 82px;
   position: relative;
   overflow: hidden;
