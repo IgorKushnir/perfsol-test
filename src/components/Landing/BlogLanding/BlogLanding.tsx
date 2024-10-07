@@ -1,7 +1,7 @@
 import styled from "@emotion/styled";
 import { RelatedBlogPost } from "@/models";
 import { useTranslation } from "next-i18next";
-// import Image from "next/image";
+import Image from "next/image";
 
 // import { LatestPosts } from "@/components/LatestPosts";
 import {
@@ -26,13 +26,13 @@ export function BlogLanding({}: Props) {
         <Body>
           <Header>
             <ImageWrap>
-              {/* <Image
+              <Image
                 src="/img/svg/BlogHeaderImg.svg"
                 width={340}
                 height={260}
                 alt="Perfsol blog"
                 loading="lazy"
-              /> */}
+              />
             </ImageWrap>
             <InfoWrapper>
               <Typography as="h2" type="h2" marginBottom={20}>
