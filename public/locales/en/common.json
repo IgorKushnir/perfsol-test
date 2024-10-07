@@ -1,0 +1,128 @@
+{
+    "perfsol": "Perfsol",
+    "home": "Home",
+    "yes": "Yes",
+    "no": "No",
+    "ok": "OK",
+    "cta": {
+        "contactUs": "Contact us",
+        "getInTouch": "Get in touch",
+        "downloadCV": "Download CV",
+        "hireDevelopers": "Hire developers",
+        "seeAll": "See all",
+        "seeAllProjects": "See all projects",
+        "startProject": "Start a project",
+        "seeAllArticles": "See all articles",
+        "askQuestion": "Ask a question"
+    },
+    "workflow": {
+        "default": {
+            "1": "Kick off",
+            "11": "Defining project scope",
+            "12": "Estimate needed resources",
+            "13":"Determine success criteria",
+            "2": "Ideation",
+            "21": "Challenging assumptions",
+            "22": "Start storyboarding",
+            "23": "Synthesize initial ideas",
+            "3": "Design",
+            "31": "Build wireframes",
+            "32": "Create prototypes",
+            "33": "Deliver final designs for approval",
+            "4": "Development",
+            "41": "Start building product",
+            "42": "Test features",
+            "43": "Iterate on test results",
+            "5": "QA",
+            "51": "Design and conduct tests",
+            "52": "Fix bugs",
+            "53": "Ensure security, performance, and usability",
+            "6": "Support",
+            "61": "Provide long-term maintenance",
+            "62": "Handle incidents",
+            "63": "Provide updates"
+        }
+    },
+    "domains":{
+        "fintech": "Fintech",
+        "healthcare": "Healthcare",
+        "telecommunications": "Telecommunications"
+    },
+    "technologies": {
+        "javaScript": "JavaScript",
+        "php": "PHP",
+        "android": "Android",
+        "ios": "iOS",
+        "python": "Python",
+        "java": "Java",
+        "net": ".Net"
+    },
+    "services": {
+        "webDevelopment": "Web Development",
+        "mobileDevelopment": "Mobile Development",
+        "tvDevelopment": "TV Development",
+        "devOps": "DevOps",
+        "productDesign": "Product Design",
+        "qualityAssurance": "Quality Assurance",
+        "dedicatedTeam": "Dedicated Team",
+        "discoveryPhase": "Discovery Phase",
+        "uiUxDesign": "UI/UX Design",
+        "strapiDevelopment": "Strapi Development"
+    },
+    "mainMenu": {
+        "contact": "Contact"
+    },
+    "footer": {
+        "rightsReserved": "© Perfsol | All Rights Reserved",
+         "terms": "Terms of Use",
+        "privacy": "Privacy Policy",
+        "cookie-policy": "Cookie policy",
+        "editorial-policy": "Editorial policy"
+    },
+    "contacts": {
+        "visitUs": "Address",
+        "sendEmail": "Send Email",
+        "dropMessage": "Contact us",
+        "formTitle": "Hi, Perfsol!",
+        "textPlaceholder": "Type your message here",
+        "name": "Name",
+        "namePlaceholder": "Type your full name here",
+        "email":"Email",
+        "emailPlaceholder": "Type you work email here",
+        "agreementMessage": "By sending a message you agree with your information being stored by us in relation to dealing with your enquiry. Please have a look at our",
+        "privacyPolicy": "Privacy Policy",
+        "attachFile": "Attach or drop file here",
+        "whatsapp": "WhatsApp"
+    },
+    "blog": {
+        "title": "Featured insights",
+        "subtitle": "Get the latest news, tips, and guides on software development."
+    },
+    "portfolio": {
+        "title": "Portfolio"
+    },
+    "team": {
+        "title": "Our team"
+    },
+    "formErrors": {
+        "messageRequired": "Message is required",
+        "nameRequired": "Name is required",
+        "nameLength": "Your name is too long!",
+        "emailRequired": "Email is required",
+        "emailInvalid": "Invalid email",
+        "fileSize": "File size is too big"
+    },
+    "routes": {
+        "privacy-policy": "privacy-policy",
+        "cookie-policy": "cookie-policy",
+        "editorial-policy": "editorial-policy"
+    },
+    "consent": {
+        "acceptAll": "Accept All",
+        "header": "We value your privacy",
+        "text": "We use cookies to enhance your browsing experience, serve personalized ads or content, and analyze our traffic. Please, consent to our use of cookies.",
+        "necessary": "Necessary",
+        "marketing": "Marketing",
+        "personalization": "Personalization"
+    }
+}

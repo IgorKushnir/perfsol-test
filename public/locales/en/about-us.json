@@ -1,0 +1,88 @@
+{
+  "meta": {
+    "title": "Why Perfsol Development Company | Perfsol",
+    "description": "Are you looking for quality developers or designers? ➡️ Go here and see what our team has accomplished during our time in the digital marketplace!"
+  },
+  "breadcrumbs": [
+    "Perfsol",
+    "About us"
+  ],
+  "page": {
+    "title": "About us",
+    "text": "Perfsol is a software development company that offers full-cycle software product development, from prototyping through UI/UX design to market-ready web & mobile app development and ongoing support.\nOur team consists of technical experts and creative thinkers who are committed to understanding your specific needs and delivering customized solutions that exceed your expectations.\nWith over a decade of experience in technology, design, and product development, we excel at delivering digital solutions that yield real, measurable business outcomes for our clients.\nOur clients say that we are “a partner the client can rely on” and we work tirelessly to live up to that description.",
+    "image-alt": "Perfsol about us",
+    "clients-say": "Our Clients say",
+    "title1": "We tech your business",
+    "title2": "with the perfect solutions.",
+    "leaders-list": "Meet Our Leadership Team",
+    "description": "Perfsol provides full-cycle software development from prototype to market-ready web and mobile apps and ongoing support. With over a decade experience we are dedicated to understanding your needs and delivering customized solutions. Bring us your challenges for measurable business outcomes.",
+    "numbersList": [
+      {"title": "6 Years",
+      "subtitle": "Of market experience"},
+      {"title": "20%",
+      "subtitle": "Annual company growth"},
+      {"title": "50+",
+      "subtitle": "Clients"},
+      {"title": "88%",
+      "subtitle": "Senior and middle employees"}
+    ],
+    "mapTitle": "Map of our clients",
+    "ourOffices": "Our Offices",
+    "awardsTitle": "Customers appreciate Our work",
+    "awardsText": "Our priority is to ensure customer satisfaction as we deeply care about our relationship and recognize their pivotal role in the success of our collaboration. These awards and customer appreciation are what motivate us to continue to grow.",
+    "whyUs1": "Why ",
+    "whyUs2": "Us?",
+    "whyUsText": [
+      "We know how to work for results by integrating into business processes and improving processes. And we don't just give advice to businesses, we implement solutions that help them automate and get results.",
+       "We're tech enthusiasts experts who can explain complicated stuff in simple terms. We love diving deep into processes to find perfect solutions for your business with our in-depth knowledge we know our tech stuff inside out."
+    ],
+    "groupClients": "Prominent Clients of Our Group",
+    "contactTitle1": "Let's Work ",
+    "contactTitle2": "Together",
+    "dropMessage": "Drop us a message"
+  },
+  "mission":{
+    "title1": "Our ",
+    "title2": "Mission, Vision",
+    "items": [
+      {
+        "title": "Unparalleled Solutions",
+    "text": "Perfsol is committed to providing exceptional support to corporate clients and financial investors in crafting and executing their growth strategies and expanding their international footprint."
+      },
+      {
+        "title": "Specific Expertise",
+    "text": "Perfsol specializes in empowering clients to comprehend, analyze, and implement commercial and investment strategies tailored to specific markets, ensuring precision and efficacy in every endeavor."
+      },
+      {
+        "title": "Diverse Experience",
+    "text": "With a rich history of collaborating with a diverse clientele, ranging from multinational corporations to small and medium enterprises, and from major corporate debt providers to mid-market private equity investors, Perfsol brings a depth of experience to every partnership."
+      },
+      {
+        "title": "Innovative Approach",
+    "text": " Perfsol embraces a blend of cutting-edge technology and human expertise to deliver optimal solutions, ensuring that clients benefit from the best of both worlds in their pursuit of success."
+      }
+    ]
+  },
+  "values": {
+    "title1": "Our ",
+    "title2": "Values",
+    "items": [
+      {
+        "title": "Go-better mindset",
+        "text": "We take the initiative and act proactively, because this is the basis of our approach to interaction. It is important for us to find and implement different ways to solve any problem. It helps us create strong decisions, motivate ourselves and be inspired every day."
+      },
+      {
+        "title":  "Dream big, work smarter",
+        "text": "We are ambitious, so we are inspired by new, interesting, big challenges, projects and goals. Only when you set big goals do you really grow."
+      },
+      {
+        "title": "Seeking & implementing",
+        "text": "We are constantly looking for and implementing new solutions, ideas and approaches - and in this we never give up or back down, because we are technical experts and always find a solution to any business problem."
+      },
+      {
+        "title": "Trusted partner",
+        "text": "We like to play the long game, and we succeed. Why? We are honest, dedicated to results, we do it on our conscience, we do not compromise on quality - and this is confirmed by the success of our clients."
+      }
+    ]
+  }
+}

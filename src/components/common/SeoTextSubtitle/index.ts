@@ -1,0 +1,1 @@
+export { SeoTextSubtitle } from './SeoTextSubtitle'

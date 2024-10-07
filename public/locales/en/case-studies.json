@@ -1,0 +1,24 @@
+{
+  "meta": {
+    "title": "Perfect Solution for your company | Portfolio by Perfsol",
+    "description": "Are you looking for a quality development company? ➡\uFE0F Go here and see what we've already done and what our customers say about us & their success stories!"
+  },
+  "breadcrumbs": [
+    "Perfsol",
+    "Portfolio"
+  ],
+  "page": {
+    "title": "Portfolio",
+    "text": "Here is our showcase. You can see here the work that we are doing and our clients' success stories.",
+    "image-alt": "Perfsol Portfolio",
+    "country": "Country",
+    "industry": "Industry",
+    "caseStudy": "Case study",
+    "caseStudy_other": "Case studies",
+    "relatedCases": "See more related cases"
+  },
+  "cta": {
+    "title":"Have a complex tech task in mind?",
+    "action": "Get a tech consultation"
+  }
+}

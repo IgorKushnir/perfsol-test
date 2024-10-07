@@ -1,0 +1,19 @@
+{
+  "meta": {
+    "title_one": "Get in-depth digital insights on new tech and trends",
+    "title_other": "Get in-depth digital insights on new tech and trends | Page {{count}}",
+    "description_one": "Interested in gaining more knowledge on development technologies? ➡\uFE0F Review new trends in digital business technology and follow the latest updates with Perfsol!",
+    "description_other": "Page #{{count}} Interested in gaining more knowledge on development technologies? ➡\uFE0F Review new trends in digital business technology and follow the latest updates with Perfsol!"
+  },
+  "breadcrumbs": [
+    "Perfsol",
+    "Blog"
+  ],
+  "page": {
+    "title_one": "Blog",
+    "title_other": "Blog - Page {{count}}",
+    "text": "This is our blog. We like to write about things we are doing. You can find here all sorts of useful stuff - tech overviews, news, tips and tricks and sweet sleek insights into IT-industry",
+    "image-alt": "Perfsol blog",
+    "tableOfContents": "Table of contents"
+  }
+}

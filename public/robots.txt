@@ -1,0 +1,41 @@
+# *
+User-agent: *
+Disallow: /manager/*
+Disallow: /_next/*
+Disallow: /js/*
+Disallow: /assets/*
+Disallow: /core/*
+Disallow: /connectors/*
+Disallow: /page/
+Disallow: /*?
+Disallow: /cdn-cgi/*
+Disallow: /vacancies/*
+
+
+Allow: /_next/*.js
+Allow: /js/*.js
+Allow: /assets/*.css
+Allow: /_next/*.css
+Allow: /js/*.css
+Allow: /assets/*.css
+Allow: /_next/*.jpg
+Allow: /js/*.jpg
+Allow: /assets/*.jpg
+Allow: /_next/*.jpeg
+Allow: /js/*.jpeg
+Allow: /assets/*.jpeg
+Allow: /_next/*.png
+Allow: /js/*.png
+Allow: /assets/*.png
+Allow: /_next/*.webp
+Allow: /js/*.webp
+Allow: /assets/*.webp
+Allow: /_next/*.svg
+Allow: /js/*.svg
+Allow: /assets/*.svg
+Allow: /_next/*.gif
+Allow: /js/*.gif
+Allow: /assets/*.gif
+
+# Sitemaps
+Sitemap: https://perfsol.tech/sitemap.xml

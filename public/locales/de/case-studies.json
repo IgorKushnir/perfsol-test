@@ -1,0 +1,24 @@
+{
+  "meta": {
+    "title": "Perfekte Lösung für Ihr Unternehmen | Portfolio von Perfsol",
+    "description": "Sind Sie auf der Suche nach einer qualitativ hochwertigen Entwicklungsunternehmen? ➡\uFE0F Schauen Sie hier vorbei und sehen Sie, was wir bereits getan haben und was unsere Kunden über uns sagen & ihre Erfolgsgeschichten!"
+  },
+  "breadcrumbs": [
+    "Perfsol",
+    "Portfolio"
+  ],
+  "page": {
+    "title": "Portfolio",
+    "text": "Hier ist unsere Präsentation. Hier können Sie die Arbeiten sehen, die wir durchführen, und die Erfolgsgeschichten unserer Kunden.",
+    "image-alt": "Perfsol Portfolio",
+    "country": "Land",
+    "industry": "Industrie",
+    "caseStudy": "Fallstudie",
+    "caseStudy_other": "Fallstudien",
+    "relatedCases": "Weitere verwandte Fallstudien finden Sie hier"
+  },
+  "cta": {
+    "title":"Haben Sie eine komplexe technische Aufgabe im Kopf?",
+    "action": "Holen Sie sich eine technische Beratung"
+  }
+}

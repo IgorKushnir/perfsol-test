@@ -1,0 +1,33 @@
+export const company = {
+    telephone: '+380661384001',
+    type: 'Corporation',
+    contactType: 'customer service',
+    availableLanguage: ['English', 'Ukrainian', 'German'],
+    linkedInLink: 'https://www.linkedin.com/company/19004657',
+    instagramLink: 'https://www.instagram.com/perfsol.tech/',
+    twitterLink: 'https://twitter.com/perfsoltech',
+    facebookLink: 'https://www.facebook.com/perfsol',
+    clutchLink: 'https://clutch.co/profile/perfsol',
+    offices: [
+        {
+            streetAddress: 'Volodymyra Velykoho St, 4',
+            addressLocality: 'Lviv',
+            addressRegion: 'Lviv district',
+            postalCode: '79000',
+            name: 'Perfsol',
+            googleMapsLink: 'https://maps.app.goo.gl/xMEgstnAxt9i9MKZA',
+            areaServed: 'UA',
+            country: 'Ukraine',
+        },
+        {
+            streetAddress: 'Kaupmehe tn 7',
+            addressLocality: 'Tallinn',
+            addressRegion: 'Kesklinna linnaosa',
+            postalCode: '10114',
+            name: 'Perfsol OÜ',
+            googleMapsLink: 'https://goo.gl/maps/TTwQq5W7a8zFWvas8',
+            areaServed: 'EE',
+            country: 'Estonia',
+        },
+    ],
+}

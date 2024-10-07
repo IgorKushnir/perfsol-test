@@ -1,0 +1,19 @@
+{
+  "meta": {
+    "title_one": "Erhalten Sie umfassende digitale Einblicke in neue Technologien und Trends",
+    "title_other": "Erhalten Sie umfassende digitale Einblicke in neue Technologien und Trends | Page {{count}}",
+    "description_one": "Interessiert daran, mehr über Entwicklungstechnologien zu erfahren? ➡\uFE0F Überprüfen Sie neue Trends in der digitalen Geschäftstechnologie und folgen Sie den neuesten Updates mit Perfsol!",
+    "description_other": "Page #{{count}} Interessiert daran, mehr über Entwicklungstechnologien zu erfahren? ➡\uFE0F Überprüfen Sie neue Trends in der digitalen Geschäftstechnologie und folgen Sie den neuesten Updates mit Perfsol!"
+  },
+  "breadcrumbs": [
+    "Perfsol",
+    "Blog"
+  ],
+  "page": {
+    "title_one": "Blog",
+    "title_other": "Blog - Page {{count}}",
+    "text": "Dies ist unser Blog. Wir schreiben gerne über die Dinge, die wir tun. Hier finden Sie allerlei nützliche Informationen - Technikübersichten, Neuigkeiten, Tipps und Tricks sowie interessante Einblicke in die IT-Branche",
+    "image-alt": "Perfsol blog",
+    "tableOfContents": "Inhaltsverzeichnis"
+  }
+}

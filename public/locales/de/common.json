@@ -1,0 +1,128 @@
+{
+    "perfsol": "Perfsol",
+    "home": "Heim",
+    "yes": "Yes",
+    "no": "No",
+    "ok": "OK",
+    "cta": {
+        "contactUs": "Kontakt",
+        "getInTouch": "Kontakt aufnehmen",
+        "downloadCV": "Lebenslauf herunterladen",
+        "hireDevelopers": "Entwickler anheuern",
+        "seeAll": "Alle sehen",
+        "seeAllProjects": "Alle Projekt anzeigen",
+        "startProject": "Ein Projekt starten",
+        "seeAllArticles": "Alle Artikel anzeigen",
+        "askQuestion": "Eine Frage stellen"
+    },
+    "workflow": {
+        "default": {
+            "1": "Anpfiff",
+            "11": "Festlegung des Projektumfangs",
+            "12": "Schätzung der benötigten Ressourcen",
+            "13":"Festlegung von Erfolgskriterien",
+            "2": "Ideenfindung",
+            "21": "Annahmen in Frage stellen",
+            "22": "Start Storyboarding",
+            "23": "Synthese der ersten Ideen",
+            "3": "Gestaltung",
+            "31": "Wireframes erstellen",
+            "32": "Prototypen erstellen",
+            "33": "Vorlage der endgültigen Entwürfe zur Genehmigung",
+            "4": "Entwicklung",
+            "41": "Beginn der Produktentwicklung",
+            "42": "Testfunktionen",
+            "43": "Iteration der Testergebnisse",
+            "5": "QA",
+            "51": "Entwurf und Durchführung von Tests",
+            "52": "Fehler beheben",
+            "53": "Gewährleistung von Sicherheit, Leistung und Benutzerfreundlichkeit",
+            "6": "Unterstützung",
+            "61": "Langfristige Wartung bereitstellen",
+            "62": "Umgang mit Vorfällen",
+            "63": "Aktualisierungen bereitstellen"
+        }
+    },
+    "domains":{
+        "fintech": "Fintech",
+        "healthcare": "Gesundheitswesen",
+        "telecommunications": "Telekommunikation"
+    },
+    "technologies": {
+        "javaScript": "JavaScript",
+        "php": "PHP",
+        "android": "Android",
+        "ios": "iOS",
+        "python": "Python",
+        "java": "Java",
+        "net": ".Net"
+    },
+    "services": {
+        "webDevelopment": "Web-Entwicklung",
+        "mobileDevelopment": "Mobile Entwicklung",
+        "tvDevelopment": "TV-Entwicklung",
+        "devOps": "DevOps",
+        "productDesign": "Produktdesign",
+        "qualityAssurance": "Qualitätssicherung",
+        "dedicatedTeam": "Engagiertes Team",
+        "discoveryPhase": "Entdeckungsphase",
+        "uiUxDesign": "UI/UX Gestaltung",
+        "strapiDevelopment": "Strapi Entwicklung"
+    },
+    "mainMenu": {
+        "contact": "Kontakt"
+    },
+    "footer": {
+        "rightsReserved": "© Perfsol | Alle Rechte vorbehalten",
+        "terms": "Nutzungsbedingungen",
+        "privacy": "Datenschutzrichtlinie",
+        "cookie-policy": "Cookie-Richtlinie",
+        "editorial-policy": "Redaktionspolitik"
+    },
+    "contacts": {
+        "visitUs": "Besuchen Sie uns",
+        "sendEmail": "E-Mail senden",
+        "dropMessage": "Kontakt",
+        "formTitle": "Hallo, Perfsol!",
+        "textPlaceholder": "Geben Sie hier Ihre Nachricht ein",
+        "name": "Name",
+        "namePlaceholder": "Geben Sie hier Ihren vollständigen Namen ein",
+        "email":"E-Mail",
+        "emailPlaceholder": "Geben Sie hier Ihre Arbeits-E-Mail ein",
+        "agreementMessage": "Mit dem Absenden einer Nachricht erklären Sie sich damit einverstanden, dass Ihre Daten zur Bearbeitung Ihrer Anfrage bei uns gespeichert werden. Bitte schauen Sie sich unser",
+        "privacyPolicy": "Datenschutzbestimmungen",
+        "attachFile": "Datei hier anhängen oder ablegen",
+        "whatsapp": "WhatsApp"
+    },
+    "blog": {
+        "title": "Interessante Einblicke",
+        "subtitle": "Erhalten Sie die neuesten Nachrichten, Tipps und Anleitungen zur Softwareentwicklung."
+    },
+    "portfolio": {
+        "title": "Portfolio"
+    },
+    "team": {
+        "title": "Unser Team"
+    },
+    "formErrors": {
+        "messageRequired": "Nachricht ist erforderlich",
+        "nameRequired": "Name ist erforderlich",
+        "nameLength": "Ihr Name ist zu lang!",
+        "emailRequired": "E-Mail ist erforderlich",
+        "emailInvalid": "Ungültige E-Mail",
+        "fileSize": "Dateigröße ist zu groß"
+    },
+    "routes": {
+        "privacy-policy": "datenschutz-richtlinie",
+        "cookie-policy": "cookie-richtlinie",
+        "editorial-policy": "redaktionspolitik"
+    },
+    "consent": {
+        "acceptAll": "Akzeptiere alle",
+        "header": "Wir legen Wert auf Ihre Privatsphäre",
+        "text": "Wir verwenden Cookies, um Ihr Surferlebnis zu verbessern, personalisierte Werbung oder Inhalte bereitzustellen und unseren Datenverkehr zu analysieren. Indem Sie auf „Alle akzeptieren“ klicken, stimmen Sie der Verwendung von Cookies zu.",
+        "necessary": "Notwendig",
+        "marketing": "Marketing",
+        "personalization": "Personalisierung"
+    }
+}
