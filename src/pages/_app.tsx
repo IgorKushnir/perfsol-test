@@ -1,5 +1,5 @@
 /* eslint-disable  @typescript-eslint/no-explicit-any */
-import { roboto } from "@/components/Fonts";
+// import { roboto } from "@/components/Fonts";
 // import { DefaultSeo } from "@/components/Seo";
 import { ApplicationContext } from "@/context";
 import { globalStyles } from "@/styles/styles";
@@ -22,7 +22,7 @@ function MyApp({ Component, pageProps }: { Component: any; pageProps: any }) {
       </Head>
       {/* <DefaultSeo /> */}
       <Global styles={globalStyles} />
-      <div className={roboto.className}>
+      <div >
         <Component {...pageProps} />
       </div>
       {/* {process.env.NODE_ENV === "production" && (
