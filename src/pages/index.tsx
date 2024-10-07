@@ -46,6 +46,8 @@ import { getImageUrl } from '@/utils/images'
 import { toPage } from "@/utils/routes";
 import {Workflow} from "@/components/Landing/Workflow";
 import {Portfolio} from "@/components/Landing/Portfolio";
+import {BlogLanding} from "@/components/Landing/BlogLanding";
+import {About} from "@/components/Landing/About";
 
 // const About = dynamic<AboutProps>(() => import('@/components/Landing/About').then((res) => res.About))
 // const BlogLanding = dynamic<BlogProps>(() => import('@/components/Landing/BlogLanding').then((res) => res.BlogLanding))
@@ -114,13 +116,14 @@ type Props = {
 export default function Home({
   mainPage,
   menu,
-  locale
-}: // blogPosts, paginationLinks,
+  locale,
+  blogPosts,
+}: //  paginationLinks,
 // footerMenu, 
 Props) {
   const {
-    services, seo, domains, technologies, workflow, portfolio
-    // about, faq,   
+    services, seo, domains, technologies, workflow, portfolio, about,
+    //  faq,   
   } = mainPage;
 
   const { t } = useTranslation("common");
@@ -216,8 +219,8 @@ Props) {
                       }}
                   />
           <Portfolio cases={portfolio.list} title={portfolio.title} description={portfolio.description} />
-          {/* <BlogLanding blogPosts={blogPosts} /> */}
-          {/* {about && <About about={about} />} */}
+          <BlogLanding blogPosts={blogPosts} />
+          {about && <About about={about} />}
           {/* {faq && <Faq faqs={faq} background={primaryYellow} />} */}
           {/* <ContactSection /> */}
         </Fullscreen>
