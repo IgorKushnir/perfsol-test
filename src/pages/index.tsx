@@ -44,6 +44,8 @@ import Head from "next/head";
 import { useCallback, useEffect, useRef, useState } from "react";
 import { getImageUrl } from '@/utils/images'
 import { toPage } from "@/utils/routes";
+import {Workflow} from "@/components/Landing/Workflow";
+import {Portfolio} from "@/components/Landing/Portfolio";
 
 // const About = dynamic<AboutProps>(() => import('@/components/Landing/About').then((res) => res.About))
 // const BlogLanding = dynamic<BlogProps>(() => import('@/components/Landing/BlogLanding').then((res) => res.BlogLanding))
@@ -117,8 +119,8 @@ export default function Home({
 // footerMenu, 
 Props) {
   const {
-    services, seo, domains, technologies,
-    // about, faq,   workflow, portfolio
+    services, seo, domains, technologies, workflow, portfolio
+    // about, faq,   
   } = mainPage;
 
   const { t } = useTranslation("common");
@@ -205,15 +207,15 @@ Props) {
           {services && <Services services={services} route={toPage} />}
           {domains && <Domains domains={domains} />}
           {technologies && <Technologies technologies={technologies} />}
-          {/* <Workflow
+          <Workflow
                       flow={{
                           id: 1,
                           title: workflow.title,
                           description: workflow.description,
                           list: workflow.flow.list,
                       }}
-                  /> */}
-          {/* <Portfolio cases={portfolio.list} title={portfolio.title} description={portfolio.description} /> */}
+                  />
+          <Portfolio cases={portfolio.list} title={portfolio.title} description={portfolio.description} />
           {/* <BlogLanding blogPosts={blogPosts} /> */}
           {/* {about && <About about={about} />} */}
           {/* {faq && <Faq faqs={faq} background={primaryYellow} />} */}
