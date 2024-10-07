@@ -1,0 +1,1 @@
+export { PaginationWithDots } from './PaginationWithDots'

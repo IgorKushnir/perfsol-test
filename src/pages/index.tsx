@@ -21,8 +21,8 @@ import { Technologies } from '@/components/Technologies'
 // import { FaqProps } from '@/components/common/Faq'
 // import { FooterProps } from '@/components/common/Footer'
 import { Header } from "@/components/common/Header/Header";
-// import { PaginationWithDots } from '@/components/common/PaginationWithDots'
-import { Fullscreen, Wrap } from "@/components/ui";
+import { PaginationWithDots } from '@/components/common/PaginationWithDots'
+import { Fullscreen, primaryYellow, Wrap } from "@/components/ui";
 import {
   About as AboutType,
   DomainsType,
@@ -41,13 +41,16 @@ import { useTranslation } from "next-i18next";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 // import dynamic from 'next/dynamic'
 import Head from "next/head";
-import { useCallback, useEffect, useRef, useState } from "react";
+import { CSSProperties, useCallback, useEffect, useRef, useState } from "react";
 import { getImageUrl } from '@/utils/images'
 import { toPage } from "@/utils/routes";
 import {Workflow} from "@/components/Landing/Workflow";
 import {Portfolio} from "@/components/Landing/Portfolio";
 import {BlogLanding} from "@/components/Landing/BlogLanding";
 import {About} from "@/components/Landing/About";
+import {ContactSection} from "@/components/Landing/ContactSection";
+import {Faq} from "@/components/common/Faq";
+import {Footer} from "@/components/common/Footer";
 
 // const About = dynamic<AboutProps>(() => import('@/components/Landing/About').then((res) => res.About))
 // const BlogLanding = dynamic<BlogProps>(() => import('@/components/Landing/BlogLanding').then((res) => res.BlogLanding))
@@ -118,54 +121,55 @@ export default function Home({
   menu,
   locale,
   blogPosts,
-}: //  paginationLinks,
-// footerMenu, 
+  paginationLinks,
+ footerMenu, 
+}: 
 Props) {
   const {
     services, seo, domains, technologies, workflow, portfolio, about,
-    //  faq,   
+     faq,   
   } = mainPage;
 
   const { t } = useTranslation("common");
 
   const [floatingElementsPosition, setFloatingElementsPosition] =
     useState<PositionType>("fixed");
-  // const [currentSection, setCurrentSection] = useState(0)
+  const [currentSection, setCurrentSection] = useState(0)
 
-  const bodyRef = useRef(null);
-  // const footerRef = useRef(null);
+  const bodyRef = useRef<HTMLElement>(null);
+  const footerRef = useRef<HTMLElement>(null);
 
-  // const changeLinkState = useCallback(() => {
-  //     const sections = bodyRef.current?.querySelectorAll('[data-target="section-item"]')
-  //     if (sections?.length === 0) {
-  //         return
-  //     }
+  const changeLinkState = useCallback(() => {
+      const sections = bodyRef.current?.querySelectorAll('[data-target="section-item"]') || []
+      if (sections?.length === 0) {
+          return
+      }
 
-  //     let visibleSectionIndex = sections?.length || 0
+      let visibleSectionIndex = sections?.length || 0
 
-  //     while (--visibleSectionIndex > -1 && window.scrollY + 96 < sections[visibleSectionIndex].offsetTop) {}
+      while (--visibleSectionIndex > -1 && window.scrollY + 96 < (sections[visibleSectionIndex] as any).offsetTop) {}
 
-  //     if (paginationLinks[visibleSectionIndex]) {
-  //         setCurrentSection(visibleSectionIndex)
-  //     }
-  // }, [paginationLinks])
+      if (paginationLinks[visibleSectionIndex]) {
+          setCurrentSection(visibleSectionIndex)
+      }
+  }, [paginationLinks])
 
   const checkOffset = useCallback(() => {
-    // if (
-      // bodyRef.current?.scrollTop + window.innerHeight <
-      // footerRef.current?.getBoundingClientRect().top
-    // ) {
+    if (
+      (bodyRef.current as any)?.scrollTop + window.innerHeight <
+      (footerRef.current as any)?.getBoundingClientRect().top
+    ) {
       setFloatingElementsPosition("fixed");
-    // } else {
-    //   setFloatingElementsPosition("absolute");
-    // }
+    } else {
+      setFloatingElementsPosition("absolute");
+    }
   }, []);
 
   useEffect(() => {
-    // window.addEventListener('scroll', changeLinkState)
+    window.addEventListener('scroll', changeLinkState)
     window.addEventListener("scroll", checkOffset);
     return () => {
-      // window.removeEventListener('scroll', changeLinkState)
+      window.removeEventListener('scroll', changeLinkState)
       window.removeEventListener("scroll", checkOffset);
     };
   });
@@ -199,12 +203,12 @@ Props) {
       <Rating title={t('home')} />
       <Wrap>
         <FollowUs position={floatingElementsPosition} />
-        {/* <PaginationWithDots
+        <PaginationWithDots
                   paginationStyle={{ position: floatingElementsPosition } as CSSProperties}
                   currentSection={currentSection}
                   links={paginationLinks}
-              /> */}
-        <Fullscreen ref={bodyRef}>
+              />
+        <Fullscreen ref={bodyRef as any}>
           <Header menu={menu} />
           <Main title={mainPage.title} description={mainPage.description} />
           {services && <Services services={services} route={toPage} />}
@@ -221,11 +225,11 @@ Props) {
           <Portfolio cases={portfolio.list} title={portfolio.title} description={portfolio.description} />
           <BlogLanding blogPosts={blogPosts} />
           {about && <About about={about} />}
-          {/* {faq && <Faq faqs={faq} background={primaryYellow} />} */}
-          {/* <ContactSection /> */}
+          {faq && <Faq faqs={faq} background={primaryYellow} />}
+          <ContactSection />
         </Fullscreen>
       </Wrap>
-      {/* <Footer footerRef={footerRef} menu={footerMenu} /> */}
+      <Footer footerRef={footerRef} menu={footerMenu} />
     </>
   );
 }
